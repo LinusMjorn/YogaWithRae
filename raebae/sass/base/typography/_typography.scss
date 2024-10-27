@@ -1,0 +1,29 @@
+
+@font-face {
+    font-family: 'FlowerPower';
+    src:url('../elements/fonts/FlowerPower.ttf.woff') format('woff'),
+        url('../elements/fonts/FlowerPower.ttf.svg') format('svg'),
+        url('FlowerPower.ttf.eot'),
+        url('FlowerPower.ttf.eot?#iefix') format('embedded-opentype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1{
+    font-family: FlowerPower;
+}
+body,
+button,
+input,
+select,
+optgroup,
+textarea {
+	color: $color__text-main;
+	font-family: $font__main;
+	font-size: 1rem;
+	line-height: $font__line-height-body;
+}
+
+@import "headings";
+@import "copy";
+

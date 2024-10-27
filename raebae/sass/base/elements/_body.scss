@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'FlowerPower';
+    src:url('./assets/fonts/FlowerPower.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+div#wpcf7-f11-p9-o1 {
+    max-width: 100%;
+    justify-content: center;
+    display: flex;
+    text-align: left;
+}
+
+input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}
+
+aside#secondary {
+    background: #b4d696;
+    padding: 20px 20px 20px 50px;
+    
+}
